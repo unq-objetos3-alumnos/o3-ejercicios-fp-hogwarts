@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="o3-ejercicios-fp-hogwarts_8100,o3-scala-template" />
+  </component>
+</project>
