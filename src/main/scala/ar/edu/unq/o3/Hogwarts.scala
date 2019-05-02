@@ -1,18 +1,28 @@
 package ar.edu.unq.o3
 
-case class Niveles(val suerte: Int, val convencimiento: Int, val fuerza: Int)
-case class Persona(val nombre: String, val niveles: Niveles)
+object Pociones {
+  type Niveles = (Int, Int, Int)
+  type Efecto = Niveles => Niveles
+  type EfectoSobreNivel = Int => Int
+
+
+  implicit class NivelesWrapper(n: Niveles) {
+    def suerte = n._1
+    def convencimiento = n._2
+    def fuerza = n._3
+  }
+}
+
+case class Persona(val nombre: String, val niveles: Pociones.Niveles)
 
 // efectos
 
 object Efecto {
+  import Pociones.{ Efecto, Niveles, EfectoSobreNivel, NivelesWrapper }
 
-  def duplicar: Niveles => Niveles = n => Niveles(n.suerte * 2, n.convencimiento * 2, n.fuerza * 2)
+  def mapNiveles(fn: EfectoSobreNivel)(n: Niveles) = (fn(n.suerte), fn(n.convencimiento), fn(n.fuerza))
 
-  def alMenos7: Niveles => Niveles = n => {
-    val Niveles(suerte, convencimiento, fuerza) = n
-    val max = List(suerte, convencimiento, fuerza).max.max(7)
-    Niveles(max, max, max)
-  }
+  def duplicar = mapNiveles(n => n * 2)(_)
+  def alMenos7 = mapNiveles(_.max(7))(_)
 
 }
