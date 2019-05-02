@@ -11,6 +11,7 @@ object Pociones {
     def convencimiento = n._2
     def fuerza = n._3
   }
+
 }
 
 case class Persona(val nombre: String, val niveles: Pociones.Niveles)
@@ -22,7 +23,7 @@ object Efecto {
 
   def mapNiveles(fn: EfectoSobreNivel)(n: Niveles) = (fn(n.suerte), fn(n.convencimiento), fn(n.fuerza))
 
-  def duplicar = mapNiveles(n => n * 2)(_)
-  def alMenos7 = mapNiveles(_.max(7))(_)
+  def duplicar: Efecto = mapNiveles(n => n * 2)
+  def alMenos7: Efecto = mapNiveles(_.max(7))
 
 }
