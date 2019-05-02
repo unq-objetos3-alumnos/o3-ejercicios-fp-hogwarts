@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4167cb50-cef8-43a8-ab94-413714700ba9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Hogwarts.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Hogwarts.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/HogwartsSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/HogwartsSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,21 +28,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="LICENSE" value="1" />
           <entry key="scala" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scala" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="LICENSE" value="1" />
           <entry key="scala" value="3412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scala" value="3412" />
         </counts>
       </usages-collector>
@@ -63,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Hogwarts.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="258">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -84,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Persona.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/HogwartsSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Hogwarts.scala" />
+        <option value="$PROJECT_DIR$/LICENSE" />
       </list>
     </option>
   </component>
@@ -154,7 +167,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556799977098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556800192600" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -330,9 +343,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HogwartsSpec_Efectos_duplicar()_debe_duplicar_todos_los_niveles_Efectos_alMenos7_crea_un_niveles_con_7_si_son_valores_menores - 2019.05.01 at 21h 50m 22s.xml">
-      <configuration name="HogwartsSpec.Efectos duplicar() debe duplicar todos los niveles&#10;Efectos alMenos7 crea un niveles con 7 si son valores menores" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="HogwartsSpec_Consultas_suma_retorna_la_suma_de_los_niveles - 2019.05.01 at 21h 50m 32s.xml">
       <configuration name="HogwartsSpec.Consultas suma retorna la suma de los niveles" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -360,16 +370,20 @@
     <history-entry file="HogwartsSpec - 2019.05.02 at 09h 13m 58s.xml">
       <configuration name="HogwartsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="HogwartsSpec - 2019.05.02 at 09h 26m 20s.xml">
+      <configuration name="HogwartsSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -379,7 +393,7 @@
       <window_info anchor="bottom" id="Build" order="5" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.36178344" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.36178344" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -426,8 +440,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ar/edu/unq/o3/Hogwarts.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="258">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
