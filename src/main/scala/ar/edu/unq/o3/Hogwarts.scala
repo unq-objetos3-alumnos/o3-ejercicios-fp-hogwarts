@@ -27,3 +27,14 @@ object Efecto {
   def alMenos7: Efecto = mapNiveles(_.max(7))
 
 }
+
+object Consultas {
+  import Pociones.{ Niveles}
+
+  def toList: (Niveles) => List[Int] = n => n.productIterator.toList.asInstanceOf[List[Int]]
+
+  def suma = toList.andThen(_.sum)
+  def max = toList.andThen(_.max)
+  def min = toList.andThen(_.min)
+
+}

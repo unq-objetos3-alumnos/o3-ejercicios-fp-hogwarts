@@ -1,5 +1,5 @@
 import org.scalatest.{FunSpec, Matchers}
-import ar.edu.unq.o3.{ Persona, Efecto }
+import ar.edu.unq.o3.{ Persona, Efecto, Consultas }
 
 class HogwartsSpec extends FunSpec with Matchers {
 
@@ -19,6 +19,19 @@ class HogwartsSpec extends FunSpec with Matchers {
       it("crea un niveles con 7 si son valores menores") {
         val p = new Persona("Hermione", (4, 5, 6))
         Efecto.alMenos7(p.niveles) should equal ((7, 7, 7))
+      }
+
+    }
+
+  }
+
+  describe("Consultas") {
+
+    describe("suma") {
+
+      it("retorna la suma de los niveles") {
+        val p = new Persona("Hermione", (4, 5, 6))
+        Consultas.suma(p.niveles) should equal (15)
       }
 
     }
